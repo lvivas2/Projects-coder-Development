@@ -1,0 +1,33 @@
+.page .footer {
+    color: $color_submenus;
+    border-top: 2px solid red;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0;
+
+    @each $footer in footer__grid--uno, footer__grid--dos {
+        .#{$footer} {
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        }
+    }
+
+    i{
+        letter-spacing: 0.184em;
+        
+    }
+    .footer__enlace{
+        color: red;
+    }
+    .footer__red-social{
+        color: white    ;
+        margin-left: 15px;
+        :hover{
+            color:blue;
+        }
+    }
+
+}

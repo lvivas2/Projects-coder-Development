@@ -1,0 +1,39 @@
+//animacion de BIENVENIDOS
+
+section .animacion__subtiulo {
+    margin: auto;
+    display: table;
+    background-color: #202020;
+    padding-left: 80px;
+    h2 {
+        
+        font-size: 40px;
+        position: relative;
+        float: left;
+        letter-spacing: 0.085em;
+        color: $color_submenus;
+    }
+    .subtitulo__span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background-color: #202020;
+        border-left: 3px solid white;
+
+        animation: maquina 2s infinite alternate steps(13);
+    }
+}
+@keyframes maquina {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+
+//esto lo hice para poder que no me generara un scroll 
+.desc__home{
+  padding: 190px;
+
+}

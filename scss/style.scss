@@ -1,0 +1,25 @@
+$color_submenus: white;
+$color_texto: black;
+
+
+@import "./home";
+@import "./footer";
+@import "./nosotros";
+@import "./proyectos";
+
+
+body{
+    background-color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: $color_submenus;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+h3{
+    color: $color_submenus;
+}
+
