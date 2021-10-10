@@ -8,6 +8,11 @@
             grid-template-columns: repeat(2, 1fr);
             text-align: center;
             justify-items: center;
+
+            @media (max-width: 700px) {
+                padding: 10px;
+            }
+
             img {
                 margin: 10px;
                 height: 100%;
@@ -15,21 +20,35 @@
                 border: 2px solid red;
                 opacity: 0.5;
                 transition: all 0.5s;
-                
+                @media (max-width: 700px) {
+                    height: 150px;
+                    width: 180px;
+                }
             }
             p {
                 padding-top: 35px;
             }
         }
+
+        .section__proyectos--item {
+            @media (max-width: 700px) {
+                margin: auto;
+            }
+        }
     }
 }
 
-.transform_up{transform: translatex(20%) ;}
-.transform_left{transform: translatex(20%) ;}
-.transform_right{transform: translatex(-20%) ;}
+.transform_up {
+    transform: translatex(20%);
+}
+.transform_left {
+    transform: translatex(20%);
+}
+.transform_right {
+    transform: translatex(-20%);
+}
 
-.img__aparece{ 
+.img__aparece {
     opacity: 1 !important;
     transform: none;
-
 }

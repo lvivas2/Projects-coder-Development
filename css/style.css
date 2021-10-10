@@ -126,6 +126,9 @@
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   justify-items: center; }
+  @media (max-width: 700px) {
+    .page .section__proyectos .section__proyectos--uno {
+      padding: 10px; } }
   .page .section__proyectos .section__proyectos--uno img {
     margin: 10px;
     height: 100%;
@@ -133,8 +136,16 @@
     border: 2px solid red;
     opacity: 0.5;
     transition: all 0.5s; }
+    @media (max-width: 700px) {
+      .page .section__proyectos .section__proyectos--uno img {
+        height: 150px;
+        width: 180px; } }
   .page .section__proyectos .section__proyectos--uno p {
     padding-top: 35px; }
+
+@media (max-width: 700px) {
+  .page .section__proyectos .section__proyectos--item {
+    margin: auto; } }
 
 .transform_up {
   transform: translatex(20%); }
