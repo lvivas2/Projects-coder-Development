@@ -18,14 +18,16 @@
   background-color: #202020;
   color: white;
   border-top: 2px solid red;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  align-self: flex-end; }
   .page .footer .footer__grid--uno {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem; }
-    @media (max-width: 700px) {
+    @media (max-width: 990px) {
       .page .footer .footer__grid--uno {
         padding-top: 0;
         padding-bottom: 1rem; } }
@@ -33,7 +35,7 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem; }
-    @media (max-width: 700px) {
+    @media (max-width: 990px) {
       .page .footer .footer__grid--dos {
         padding-top: 0;
         padding-bottom: 1rem; } }
@@ -46,11 +48,11 @@
     margin-left: 15px; }
     .page .footer .footer__red-social :hover {
       color: blue; }
-    @media (max-width: 700px) {
+    @media (max-width: 990px) {
       .page .footer .footer__red-social {
         text-align: left;
         display: block; } }
-  @media (max-width: 700px) {
+  @media (max-width: 990px) {
     .page .footer .footer__grid--uno {
       margin: auto; } }
 
@@ -233,6 +235,8 @@
     .contact .contact__wrapper .contact__info {
       background-color: black;
       color: white; }
+      .contact .contact__wrapper .contact__info a {
+        color: red; }
       .contact .contact__wrapper .contact__info ul {
         list-style: none;
         padding: 0; }

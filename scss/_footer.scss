@@ -2,10 +2,11 @@
     background-color: #202020;
     color: $color_submenus;
     border-top: 2px solid red;
-
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 0;
+    align-self: flex-end;
 
     @each $footer in footer__grid--uno, footer__grid--dos {
         .#{$footer} {
@@ -13,7 +14,7 @@
             padding-top: 1rem;
             padding-bottom: 1rem;
 
-            @media (max-width: 700px) {
+            @media (max-width: 990px) {
                 padding-top: 0;
                 padding-bottom: 1rem;
             }
@@ -32,14 +33,14 @@
         :hover {
             color: blue;
         }
-        @media (max-width: 700px) {
+        @media (max-width: 990px) {
             text-align: left;
             display: block;
         }
     }
 
     .footer__grid--uno {
-        @media (max-width: 700px) {
+        @media (max-width: 990px) {
             margin: auto;
         }
     }
