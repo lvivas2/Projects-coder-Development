@@ -58,27 +58,53 @@
   background-color: black;
   border-top: 2px solid red;
   padding: 80px; }
+  @media (max-width: 700px) {
+    .section__nosotros {
+      padding: 0;
+      text-align: center; } }
   .section__nosotros .section__nosotros--grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
     .section__nosotros .section__nosotros--grid .section__grid1 {
       text-align: center;
       margin: auto; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid1 {
+          grid-column: 1/4; } }
     .section__nosotros .section__nosotros--grid .section__grid2 {
       grid-column: 2/4;
       padding-top: 46px; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid2 {
+          grid-column: 1/4;
+          padding-top: 0; } }
     .section__nosotros .section__nosotros--grid .section__grid3 {
       grid-column: 1/2; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid3 {
+          grid-column: 1/4; } }
     .section__nosotros .section__nosotros--grid .section__grid4 {
       grid-column: 2/4;
       grid-row: 2/5;
       margin: auto; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid4 {
+          display: none; } }
     .section__nosotros .section__nosotros--grid .section__grid5 {
       grid-column: 1/2; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid5 {
+          grid-column: 1/4; } }
     .section__nosotros .section__nosotros--grid .section__grid6 {
       grid-column: 1/2; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid6 {
+          grid-column: 1/4; } }
     .section__nosotros .section__nosotros--grid .section__grid7 {
       grid-column: 1/2; }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid7 {
+          grid-column: 1/4; } }
     .section__nosotros .section__nosotros--grid .section__grid8 {
       grid-column: 1/4;
       text-align: center; }
@@ -86,6 +112,9 @@
       grid-column: 1/4;
       display: grid;
       grid-template-columns: repeat(4, 1fr); }
+      @media (max-width: 700px) {
+        .section__nosotros .section__nosotros--grid .section__grid9 {
+          grid-template-columns: 1fr; } }
       .section__nosotros .section__nosotros--grid .section__grid9 .section__grid9--item {
         text-align: center; }
 
