@@ -237,6 +237,9 @@
       color: white; }
       .contact .contact__wrapper .contact__info a {
         color: red; }
+        @media (min-width: 700px) {
+          .contact .contact__wrapper .contact__info a {
+            color: red; } }
       .contact .contact__wrapper .contact__info ul {
         list-style: none;
         padding: 0; }

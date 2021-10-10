@@ -87,6 +87,9 @@
 
             a{
                 color: red;
+                @media (min-width: 700px) {
+                    color: red;
+                }
             }
 
             ul {
