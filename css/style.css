@@ -138,14 +138,21 @@
     transition: all 0.5s; }
     @media (max-width: 700px) {
       .page .section__proyectos .section__proyectos--uno img {
-        height: 150px;
-        width: 180px; } }
+        border: none;
+        height: 100px;
+        width: 100px; } }
   .page .section__proyectos .section__proyectos--uno p {
     padding-top: 35px; }
 
 @media (max-width: 700px) {
   .page .section__proyectos .section__proyectos--item {
-    margin: auto; } }
+    margin: auto;
+    background: white;
+    border-radius: 100px;
+    overflow: hidden; }
+    .page .section__proyectos .section__proyectos--item .img--tian {
+      height: 100px;
+      width: 100px; } }
 
 .transform_up {
   transform: translatex(20%); }

@@ -21,8 +21,10 @@
                 opacity: 0.5;
                 transition: all 0.5s;
                 @media (max-width: 700px) {
-                    height: 150px;
-                    width: 180px;
+                    border: none;
+                    height: 100px;
+                    width: 100px;
+                    
                 }
             }
             p {
@@ -33,6 +35,14 @@
         .section__proyectos--item {
             @media (max-width: 700px) {
                 margin: auto;
+                background: white;
+                border-radius: 100px;
+                overflow: hidden;
+
+                .img--tian{
+                    height: 100px;
+                    width: 100px;
+                }
             }
         }
     }
