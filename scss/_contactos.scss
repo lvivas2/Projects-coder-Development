@@ -16,7 +16,7 @@
         span {
             color: red;
         }
-        @media (min-width: 800px) {
+        @media (min-width: 700px) {
             max-width: 500px;
         }
     }
@@ -26,12 +26,12 @@
         .contact__wrapper > * {
             padding: 1em;
 
-            @media (min-width: 800px) {
+            @media (min-width: 700px) {
                 padding: 2em;
             }
         }
 
-        @media (min-width: 800px) {
+        @media (min-width: 700px) {
             display: grid;
             grid-template-columns: 2fr 1fr;
         }

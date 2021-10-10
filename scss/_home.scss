@@ -1,39 +1,22 @@
-//animacion de BIENVENIDOS
+.section__home {
+  .desc__home {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    
+    color: #fff;
 
-section .animacion__subtiulo {
-    margin: auto;
-    display: table;
-    background-color: #202020;
-    padding-left: 80px;
-    h2 {
-        
-        font-size: 40px;
-        position: relative;
-        float: left;
-        letter-spacing: 0.085em;
-        color: $color_submenus;
-    }
-    .subtitulo__span {
-        position: absolute;
-        right: 0;
-        width: 0;
-        background-color: #202020;
-        border-left: 3px solid white;
+    align-self: center;
+    text-align: center;
 
-        animation: maquina 2s infinite alternate steps(13);
-    }
-}
-@keyframes maquina {
-    from {
-      width: 100%;
-    }
-    to {
-      width: 0;
+    h1{
+      font-weight: 700;
+      font-size: 6vw;
+      text-transform: uppercase;
+      color: white;
+      margin: auto;
+      text-align: center;
     }
   }
-
-//esto lo hice para poder que no me generara un scroll 
-.desc__home{
-  padding: 190px;
-
 }
