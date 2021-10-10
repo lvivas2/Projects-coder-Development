@@ -168,7 +168,12 @@
   transform: none; }
 
 .desc__contact {
-  padding: 80px 190px !important; }
+  padding-top: 100px !important;
+  padding-bottom: 50px; }
+  @media (min-width: 700px) {
+    .desc__contact {
+      max-width: 800px;
+      margin: auto; } }
 
 .contact {
   color: white;

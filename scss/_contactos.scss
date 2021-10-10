@@ -1,5 +1,10 @@
 .desc__contact {
-    padding: 80px 190px !important;
+    padding-top: 100px !important;
+    padding-bottom: 50px;
+    @media (min-width: 700px) {
+        max-width: 800px;
+        margin: auto;
+    }
 }
 
 .contact {
