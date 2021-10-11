@@ -6,17 +6,18 @@
         padding: 0;
         text-align: center;
     }
-    
+
     .section__nosotros--grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         .section__grid1 {
             text-align: center;
             margin: auto;
+           
             @media (max-width: 700px) {
                 grid-column: 1/4;
+                
             }
-           
         }
         .section__grid2 {
             grid-column: 2/4;
@@ -59,7 +60,7 @@
             }
         }
 
-        .section__grid8{
+        .section__grid8 {
             grid-column: 1/4;
             text-align: center;
         }
@@ -70,9 +71,11 @@
             @media (max-width: 700px) {
                 grid-template-columns: 1fr;
             }
-            .section__grid9--item{
+            .section__grid9--item {
                 text-align: center;
             }
         }
     }
+
+    
 }

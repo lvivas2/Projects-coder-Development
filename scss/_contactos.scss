@@ -40,7 +40,7 @@
             display: grid;
             grid-template-columns: 2fr 1fr;
         }
-      
+
         .contact__form form {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -85,7 +85,7 @@
             background-color: black;
             color: white;
 
-            a{
+            a {
                 color: red;
                 @media (min-width: 700px) {
                     color: red;
@@ -115,10 +115,11 @@
                     text-align: left;
                 }
             }
-            .info__p{
+            .info__p {
                 @media (min-width: 800px) {
-                    text-align: center ;
-            }}
+                    text-align: center;
+                }
+            }
         }
     }
 }
