@@ -2,13 +2,13 @@ window.addEventListener('scroll', function () {
 
     function fade(direction){
 
-        var imagen = document.querySelectorAll('.img__'+direction);
+        let imagen = document.querySelectorAll('.img__' + direction);
 
-    for (var i = 0; i < imagen.length; i++) {
+    for (let i = 0; i < imagen.length; i++) {
 
-        var altura = window.innerHeight / 1.3;
+        let altura = window.innerHeight / 1.3;
 
-        var distancia = imagen[i].getBoundingClientRect().top;
+        let distancia = imagen[i].getBoundingClientRect().top;
 
 
         console.log(altura)
@@ -30,8 +30,6 @@ window.addEventListener('scroll', function () {
     }
 
     }
-
-
     
     fade('up') 
     fade('right')
